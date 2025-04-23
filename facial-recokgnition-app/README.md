@@ -1,12 +1,36 @@
-# React + Vite
+# Facial Authentication System 👤🔐
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack facial authentication system built using **React (frontend)**, **AWS services (Lambda, S3, Rekognition, DynamoDB)**, and **Python (backend)**. It authenticates users (employees or visitors) by comparing facial images with stored employee images using Amazon Rekognition.
 
-Currently, two official plugins are available:
+![Architecture](facial-recokgnition-app/architecture.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 📸 Facial registration and verification
+- ☁️ AWS S3 buckets for image storage
+- 🧠 Facial recognition using Amazon Rekognition
+- 🔒 Authentication Lambda functions
+- 🧾 Data storage with DynamoDB
+- 🌐 React frontend with API Gateway integration
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend:
+
+- React.js
+
+### Backend:
+
+- AWS Lambda (Python)
+- Amazon API Gateway
+- Amazon S3
+- Amazon Rekognition
+- Amazon DynamoDB
+
+---
+
+## 🗂️ Folder Structure
