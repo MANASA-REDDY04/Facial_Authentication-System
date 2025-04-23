@@ -2,7 +2,7 @@
 
 This is a full-stack facial authentication system built using **React (frontend)**, **AWS services (Lambda, S3, Rekognition, DynamoDB)**, and **Python (backend)**. It authenticates users (employees or visitors) by comparing facial images with stored employee images using Amazon Rekognition.
 
-![Architecture](facial-recokgnition-app/architecture.png)
+![Architecture](facial-recokgnition-app\architecture.png)
 
 ---
 
